@@ -52,7 +52,10 @@ function update_track()
 		if(force_update || current_title != last_title || current_artist != last_artist || current_album != last_album)
 		{
 			if(!force_update)
+			{
 				alert("HUD Lyrics: Now Playing: "+current_title+" by "+current_artist+" ("+current_album+")");
+				current_page = 1;
+			}
 
 			last_title = current_title;
 			last_artist = current_artist;
