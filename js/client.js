@@ -45,6 +45,7 @@ function update_track()
 
 		bg.removeObjects();
 		bg.addTextObject("[No lyrics available]", "Arial", 18, "white", 0, 0).opacity=30;
+		document.getElementById("img_next").style.visibility = "hidden";
 	}
 	else
 	{
