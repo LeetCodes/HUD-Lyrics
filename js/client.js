@@ -98,7 +98,7 @@ function show_current_page()
 	var lines_per_page = 20;
 	var lines = lyrics.split("\r");
 	
-	max_pages = Math.round(lines.length/lines_per_page);
+	max_pages = Math.ceil(lines.length/lines_per_page);
 	if(max_pages == 0)
 		max_pages = 1;
 
