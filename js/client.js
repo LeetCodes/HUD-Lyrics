@@ -41,7 +41,7 @@ function update_track()
 	*/
 	if(current_title == "" || current_artist == "")
 	{
-		alert("HUD Lyrics: No track title or artist detected.");
+		//alert("HUD Lyrics: No track title or artist detected.");
 
 		bg.removeObjects();
 		bg.addTextObject("[No lyrics available]", "Arial", 18, "white", 0, 0).opacity=30;
